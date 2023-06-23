@@ -12,13 +12,13 @@ function onPageLoad() {
       document.querySelector("p").innerText = "This is not a triangle.";
     }
     else if (side1 === side2 && side2 === side3) {
-      document.querySelector("p").innerText = "The triangle is equilateral."
+      document.querySelector("p").innerText = "The triangle is equilateral.";
     }
     else if (side1 === side2 && side2 != side3 || side1 === side3 && side2 != side3) {
-      document.querySelector("p").innerText = "The triangle is isoceles."
+      document.querySelector("p").innerText = "The triangle is isoceles.";
     }
     else if (side1 != side2 && side2 != side3 && side1 != side3) {
-      document.querySelector("p").innerText = "The triangle is scalene."
+      document.querySelector("p").innerText = "The triangle is scalene.";
     }
   }
   form.addEventListener("submit", formSubmission);
